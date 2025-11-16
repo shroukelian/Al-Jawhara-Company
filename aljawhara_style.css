@@ -1077,3 +1077,37 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 576px) {
+    /* ... (تنسيقات الموبايل الأخرى) ... */
+
+    /* تفعيل توسيط العناوين في الموبايل */
+    h1, h2, h3 {
+        text-align: center !important; 
+    }
+    
+    /* تصغير حجم h1 في الموبايل ليناسب الشاشة */
+    h1 { 
+        font-size: 2.5em !important; 
+        margin-bottom: 20px !important;
+    }
+    /* تصغير حجم h2 في الموبايل */
+    h2 { 
+        font-size: 2em !important; 
+        margin-bottom: 30px !important; 
+    }
+    /* تصغير حجم h3 في الموبايل */
+    h3 { 
+        font-size: 1.6em !important; 
+    }
+    
+    /* توسيط وصف القسم في الموبايل */
+    .section-description {
+        text-align: center;
+    }
+
+    /* تحسين قراءة النص العادي في الموبايل */
+    p {
+        font-size: 1em; 
+        line-height: 1.6;
+    }
+}
