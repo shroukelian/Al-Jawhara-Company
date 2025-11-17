@@ -357,7 +357,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 /* Services Section - لترتيب البطاقات بجانب بعضها */
 .service-cards-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة متساوية في العرض */
+    grid-template-columns: repeat(2, 1fr); /* 3 أعمدة متساوية في العرض */
     gap: 30px; /* مسافة بين البطاقات */
     margin-bottom: 30px; 
     
