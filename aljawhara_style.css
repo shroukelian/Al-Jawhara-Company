@@ -1105,34 +1105,31 @@ p {
 }
 /* ... (كود CSS سابق) ... */
 
-/* Hero Section */
-#hero {
-/* الصورة مع طبقة شفافة (Overlay) بلون بني غامق */
+/* Packing Materials Section */
 /* ... (كود سابق) ... */
-    min-height: 80vh;
-}
-#hero h1 {
-    color: #B68D40; /* لتأكيد ظهور العنوان بلون ذهبي بارز فوق الطبقة الداكنة */
-    font-size: 4.5em;
-    line-height: 1.1;
+
+/* ------------------------------------- */
+/* تنسيق الروابط النصية الجديدة في قسم التغليف */
+/* ------------------------------------- */
+.packing-sub-links h3 {
+    color: #6B442A; /* بني غامق للعنوان */
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
-/* تنسيق الروابط النصية الجديدة في قسم HERO */
-.hero-sub-links {
-    margin-top: 30px; /* مسافة أعلى النص الجديد */
+.packing-sub-links p {
+    line-height: 2.2; /* مسافة بين السطور */
     font-size: 1.1em;
-    font-weight: 700;
-    color: #F7E9D7; /* لون فاتح للنص */
 }
 
-.hero-sub-links a {
-    color: #F7E9D7; /* لون فاتح للروابط */
+.packing-sub-links a {
+    color: #6B442A; /* بني غامق للروابط */
+    font-weight: 700;
     text-decoration: none;
-    padding: 0 5px; /* مسافة حول النص */
     transition: color 0.3s ease;
 }
 
-.hero-sub-links a:hover {
+.packing-sub-links a:hover {
     color: #B68D40; /* ذهبي عند التحويم */
     text-decoration: underline;
 }
