@@ -1103,3 +1103,38 @@ p {
 }
 
 }
+/* ... (كود CSS سابق) ... */
+
+/* Hero Section */
+#hero {
+/* الصورة مع طبقة شفافة (Overlay) بلون بني غامق */
+/* ... (كود سابق) ... */
+    min-height: 80vh;
+}
+#hero h1 {
+    color: #B68D40; /* لتأكيد ظهور العنوان بلون ذهبي بارز فوق الطبقة الداكنة */
+    font-size: 4.5em;
+    line-height: 1.1;
+}
+
+/* تنسيق الروابط النصية الجديدة في قسم HERO */
+.hero-sub-links {
+    margin-top: 30px; /* مسافة أعلى النص الجديد */
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #F7E9D7; /* لون فاتح للنص */
+}
+
+.hero-sub-links a {
+    color: #F7E9D7; /* لون فاتح للروابط */
+    text-decoration: none;
+    padding: 0 5px; /* مسافة حول النص */
+    transition: color 0.3s ease;
+}
+
+.hero-sub-links a:hover {
+    color: #B68D40; /* ذهبي عند التحويم */
+    text-decoration: underline;
+}
+
+/* ... (باقي كود CSS) ... */
