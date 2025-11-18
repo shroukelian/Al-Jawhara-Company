@@ -154,7 +154,8 @@ white-space: nowrap;
 
 /* Sections General */
 main {
-padding-top: 90px; /* تعويض ارتفاع الهيدر الثابت */
+    /* تم تعديل هذا السطر ليصبح صفر بدلاً من 90px */
+    padding-top: 0; 
 }
 .page-section {
 padding: 100px 0;
@@ -297,11 +298,13 @@ color: white;
 
 /* --- Mobile Fixes (992px and 576px) --- */
 @media (max-width: 992px) {
-main { padding-top: 100px; }
+    /* تم تعديل هذا السطر ليصبح 0 بدلاً من 100px */
+    main { padding-top: 0; } 
 /* ... (Mobile Header styles) ... */
 }
 @media (max-width: 576px) {
-main { padding-top: 90px; }
+    /* تم تعديل هذا السطر ليصبح 0 بدلاً من 90px */
+    main { padding-top: 0; } 
 /* ... (Mobile typography and structure) ... */
 #hero h1 { font-size: 3em; }
 /* ... (Mobile Footer styles) ... */
@@ -1046,18 +1049,6 @@ background-color: white;
 box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 border-bottom: 4px solid #B68D40; /* خط ذهبي سفلي */
 transition: all 0.3s ease;
-}
-
-.material-item .icon {
-font-size: 3.5em;
-color: #6B442A; /* بني غامق */
-margin-bottom: 15px;
-display: block;
-}
-
-.material-item h3 {
-font-size: 1.5em;
-color: #6B442A;
 }
 
 .material-item:hover {
