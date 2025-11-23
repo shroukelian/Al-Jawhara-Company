@@ -75,7 +75,7 @@ text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 /* Header & Navigation */
 header {
-background-color: #6B442A; /* بني غامق */
+background-color: #6B442A; 
 /* ... (باقي الأكواد كما هي) ... */
 }
 
@@ -460,7 +460,7 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .contact-info h3 {
-color: #6B442A; /* بني غامق */
+color: #6B442A; 
 border-bottom: 3px solid #B68D40; /* خط ذهبي أسفل العنوان */
 padding-bottom: 10px;
 margin-bottom: 25px;
@@ -482,7 +482,7 @@ margin-left: 10px;
 .social-links-contact a {
 font-size: 1.8em;
 margin-left: 15px;
-color: #6B442A; /* بني غامق */
+color: #6B442A; 
 transition: color 0.3s ease;
 }
 .social-links-contact a:hover {
@@ -500,7 +500,7 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
 .contact-form h3 {
 text-align: right;
-color: #6B442A; /* بني غامق */
+color: #6B442A; 
 margin-bottom: 25px;
 font-size: 2.5em; /* حجم أكبر للعنوان */
 }
@@ -540,7 +540,7 @@ outline: none;
 .btn-submit {
 display: block;
 width: 100%;
-background-color: #6B442A; /* بني غامق */
+background-color: #6B442A; 
 color: white;
 padding: 15px;
 border: none;
@@ -601,7 +601,7 @@ right: 0;
 bottom: 0;
 width: 60px; /* طول الخط */
 height: 3px;
-background-color: #B68D40; /* ذهبي */
+background-color: #B68D40; 
 border-radius: 3px;
 }
 
@@ -768,7 +768,7 @@ display: block;
 padding: 20px;
 text-align: center;
 background-color: white;
-color: #6B442A; /* بني غامق */
+color: #6B442A; 
 border: 1px solid #ddd;
 border-radius: 8px;
 font-size: 1.2em;
@@ -779,39 +779,37 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .location-card:hover {
-background-color: #B68D40; /* لون ذهبي عند التحويم */
+background-color: #B68D40; 
 color: white; 
 border-color: #B68D40;
-transform: translateY(-3px); /* حركة خفيفة */
+transform: translateY(-3px); 
 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 992px) {
 .locations-grid {
-grid-template-columns: repeat(2, 1fr); /* عمودين على التابلت */
+grid-template-columns: repeat(2, 1fr); 
 }
 }
 
 
 @media (max-width: 576px) {
 .locations-grid {
-grid-template-columns: 1fr; /* عمود واحد على الموبايل */
-padding: 0 10px; /* مسافة بسيطة */
+grid-template-columns: 1fr; 
+padding: 0 10px;
 }
 .location-card {
 font-size: 1.1em;
 }
 }
-/* ------------------------------------- */
-/* Hamburger Menu Styles (قائمة الهامبرغر) */
-/* ------------------------------------- */
+
 .hamburger-menu {
-display: none; /* الافتراضي: مخفية في وضع الديسكتوب */
+display: none; 
 background: none;
 border: none;
 cursor: pointer;
 padding: 10px;
-z-index: 1002; /* أعلى من القائمة نفسها */
+z-index: 1002; 
 }
 
 .hamburger-menu .bar {
@@ -819,58 +817,53 @@ display: block;
 width: 25px;
 height: 3px;
 margin: 5px 0;
-background-color: #B68D40; /* لون ذهبي للشرطات */
+background-color: #B68D40; 
 border-radius: 5px;
 transition: all 0.3s ease-in-out;
 }
 
 /* ------------------------------------- */
-/* Main Navigation Wrapper - MOBILE VIEW */
+/* Main Navigation Wrapper  */
 /* ------------------------------------- */
 
 @media (max-width: 992px) {
-/* إظهار الهامبرغر */
 .hamburger-menu {
 display: block; 
 }
 
-/* ترتيب عناصر الهيدر في الموبايل */
 header .container {
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-/* إخفاء وتنسيق القائمة في وضع الموبايل */
 .main-nav-wrapper {
     position: fixed;
     top: 0;
-    right: -100%; /* إخفاء القائمة خارج الشاشة (جهة اليمين) */
+    right: -100%; 
     width: 70%;
     max-width: 300px;
     height: 100vh;
-    background-color: #6B442A; /* خلفية القائمة بني غامق */
+    background-color: #6B442A; 
     box-shadow: -4px 0 10px rgba(0, 0, 0, 0.4);
-    transition: right 0.3s ease-in-out; /* نعومة في ظهور القائمة */
+    transition: right 0.3s ease-in-out; 
     z-index: 1001;
     
-    /* تنسيق المحتوى داخل الـ Wrapper */
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 100px; /* مسافة من أعلى الصفحة */
+    padding-top: 100px; 
 }
 
-/* عند إضافة كلاس 'open' بواسطة JavaScript */
 .main-nav-wrapper.open {
-    right: 0; /* إظهار القائمة على الشاشة */
+    right: 0;
 }
 
 nav {
     width: 100%;
 }
 nav ul {
-    flex-direction: column; /* ترتيب الروابط عمودياً */
+    flex-direction: column; 
     text-align: center;
 }
 nav ul li {
@@ -886,7 +879,6 @@ nav ul li a:hover, nav ul li.active a {
     color: #6B442A;
 }
 
-/* تنسيق رقم الهاتف في القائمة المنسدلة */
 .contact-header {
     margin-top: 30px;
     padding: 0 20px;
@@ -897,7 +889,6 @@ nav ul li a:hover, nav ul li.active a {
     text-align: center;
 }
 
-/* تنسيق حركة الهامبرغر (التحول إلى X) */
 .hamburger-menu.open .bar:nth-child(1) {
     transform: translateY(8px) rotate(-45deg);
 }
@@ -910,20 +901,17 @@ nav ul li a:hover, nav ul li.active a {
 
 }
 
-/* Contact Us Section - (تعديلات الموبايل والتابلت) */
 
-/* عندما يكون عرض الشاشة 992 بكسل أو أقل (التابلت والموبايل) */
 @media (max-width: 992px) {
-/* (تم الإبقاء على flex-direction: column; لظهور العمودين فوق بعض) */
 .contact-grid {
 flex-direction: column; 
 }
 .contact-info,
 .contact-form {
 flex: 1; 
-width: 90%; /* تقليل العرض إلى 90% */
-max-width: 500px; /* تحديد عرض أقصى للبطاقة حتى لا تصبح عريضة جداً على التابلت */
-margin: 20px auto; /* <--- التعديل الأهم: توسيط البطاقة أفقياً */
+width: 90%;
+max-width: 500px;
+margin: 20px auto; 
 }
 .contact-info {
 order: 1; 
@@ -934,40 +922,35 @@ order: 2;
 padding: 25px; 
 }
 
-/* توسيط عناوين الأقسام */
 .contact-info h3,
 .contact-form h3 {
     text-align: center;
-    font-size: 2em; /* تصغير حجم العنوان ليناسب الموبايل */
+    font-size: 2em; 
 }
 
-/* تحسين ظهور معلومات الاتصال */
 .contact-info p {
-    justify-content: center; /* توسيط النص والأيقونات أفقياً */
+    justify-content: center;
     text-align: center;
-    font-size: 1em; /* تصغير حجم الخط قليلاً */
+    font-size: 1em; 
     line-height: 1.4;
 }
 
-/* تحسين ظهور الأيقونات */
 .contact-info p i {
-    margin-left: 5px; /* تقليل المسافة بين الأيقونة والنص */
+    margin-left: 5px; 
 }
 
-/* توسيط أيقونات التواصل الاجتماعي */
 .social-links-contact {
     display: flex;
-    justify-content: center; /* توسيط الأيقونات في المنتصف */
+    justify-content: center; 
     margin-top: 20px;
 }
 
 }
 
-/* تحسينات إضافية للموبايل فقط (أصغر من 576 بكسل) */
 @media (max-width: 576px) {
 .contact-info,
 .contact-form {
-padding: 20px 15px; /* تقليل البادينج للحصول على مساحة أكبر */
+padding: 20px 15px;
 }
 .contact-info h3,
 .contact-form h3 {
@@ -975,10 +958,10 @@ font-size: 1.8em;
 }
 }
 
-/* Steps Section - (خطوات العمل) */
+/* Steps Section -  */
 .steps-grid {
 display: grid;
-grid-template-columns: repeat(5, 1fr); /* 5 أعمدة للخطوات */
+grid-template-columns: repeat(5, 1fr); 
 gap: 20px;
 text-align: center;
 }
@@ -996,7 +979,7 @@ display: block;
 width: 50px;
 height: 50px;
 line-height: 50px;
-background-color: #B68D40; /* ذهبي */
+background-color: #B68D40; 
 color: white;
 font-size: 1.5em;
 font-weight: 900;
@@ -1007,18 +990,18 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 .step-item h3 {
 font-size: 1.4em;
-color: #6B442A; /* بني غامق */
+color: #6B442A; 
 margin-bottom: 10px;
 }
 
 @media (max-width: 992px) {
 .steps-grid {
-grid-template-columns: repeat(2, 1fr); /* عمودين على التابلت */
+grid-template-columns: repeat(2, 1fr); 
 }
 }
 @media (max-width: 576px) {
 .steps-grid {
-grid-template-columns: 1fr; /* عمود واحد على الموبايل */
+grid-template-columns: 1fr; 
 }
 }
 /* Animation Keyframes for Features */
@@ -1036,7 +1019,7 @@ transform: translateY(0);
 /* Packing Materials Section */
 .materials-grid {
 display: grid;
-grid-template-columns: repeat(4, 1fr); /* 4 أعمدة متساوية */
+grid-template-columns: repeat(4, 1fr); 
 gap: 30px;
 text-align: center;
 margin-top: 40px;
@@ -1047,14 +1030,14 @@ padding: 30px 20px;
 border-radius: 8px;
 background-color: white;
 box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-border-bottom: 4px solid #B68D40; /* خط ذهبي سفلي */
+border-bottom: 4px solid #B68D40; 
 transition: all 0.3s ease;
 }
 
 .material-item:hover {
 transform: translateY(-5px);
 box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-background-color: #F7E9D7; /* بيج فاتح عند التحويم */
+background-color: #F7E9D7; 
 }
 
 /* Media Queries for Packing Materials */
@@ -1069,69 +1052,54 @@ grid-template-columns: 1fr;
 }
 }
 @media (max-width: 576px) {
-/* ... (تنسيقات الموبايل الأخرى) ... */
 
-/* تفعيل توسيط العناوين في الموبايل */
 h1, h2, h3 {
     text-align: center !important; 
 }
 
-/* تصغير حجم h1 في الموبايل ليناسب الشاشة */
 h1 { 
     font-size: 2.5em !important; 
     margin-bottom: 20px !important;
 }
-/* تصغير حجم h2 في الموبايل */
 h2 { 
     font-size: 2em !important; 
     margin-bottom: 30px !important; 
 }
-/* تصغير حجم h3 في الموبايل */
 h3 { 
     font-size: 1.6em !important; 
 }
 
-/* توسيط وصف القسم في الموبايل */
 .section-description {
     text-align: center;
 }
 
-/* تحسين قراءة النص العادي في الموبايل */
 p {
     font-size: 1em; 
     line-height: 1.6;
 }
 
 }
-/* ... (كود CSS سابق) ... */
 
-/* Packing Materials Section */
-/* ... (كود سابق) ... */
-
-/* ------------------------------------- */
-/* تنسيق الروابط النصية الجديدة في قسم التغليف */
-/* ------------------------------------- */
 .packing-sub-links h3 {
-    color: #6B442A; /* بني غامق للعنوان */
+    color: #6B442A; 
     font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 .packing-sub-links p {
-    line-height: 2.2; /* مسافة بين السطور */
+    line-height: 2.2;
     font-size: 1.1em;
 }
 
 .packing-sub-links a {
-    color: #6B442A; /* بني غامق للروابط */
+    color: #6B442A; 
     font-weight: 700;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .packing-sub-links a:hover {
-    color: #B68D40; /* ذهبي عند التحويم */
+    color: #B68D40; 
     text-decoration: underline;
 }
 
-/* ... (باقي كود CSS) ... */
